@@ -1,4 +1,3 @@
-#Feature-001
 import socket, threading
 
 bind_ip = "0.0.0.0"
