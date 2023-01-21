@@ -1,5 +1,4 @@
-import socket
-import threading
+import socket, threading
 
 bind_ip = "0.0.0.0"
 bind_port = 9999
