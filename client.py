@@ -9,7 +9,7 @@ client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # connect the client
 client.connect((target_host,target_port))
 
-# send some data
+# send some data. Modify for manual
 client.send(b"Hello World!")
 
 # receive some data
