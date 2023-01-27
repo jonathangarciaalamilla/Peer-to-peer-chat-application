@@ -1,3 +1,4 @@
+// ver 1.0
 import socket
 
 target_host = "0.0.0.0"
