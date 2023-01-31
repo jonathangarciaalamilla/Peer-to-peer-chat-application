@@ -6,7 +6,7 @@ def receive_messages(client_socket):
             message = client_socket.recv(1024).decode("utf-8")
             if message == "quit":
                 break
-            print(f"Received message: {message}")
+            print(f"\nReceived message: {message}")
         except:
             print("Error receiving messages.")
             break
@@ -60,7 +60,7 @@ def start_chat_server(host, port):
 if __name__ == "__main__":
     host = "localhost"
     port = 12345
-
+    
     chat_mode = input("Enter chat mode (server/client): ")
     if chat_mode == "server":
         start_chat_server(host, port)
