@@ -1,4 +1,3 @@
-# peer-to-peer chat system
 import socket, threading
 
 def receive_messages(sock):
