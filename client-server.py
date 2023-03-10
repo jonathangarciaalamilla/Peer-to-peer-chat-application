@@ -1,4 +1,3 @@
-#client-server chat system
 import socket, threading
 
 def receive_messages(client_socket):
